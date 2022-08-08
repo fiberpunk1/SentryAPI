@@ -56,7 +56,8 @@ By typing Sentry's IP address directly into your browser: http://xxx.xxx.xx.xx
 
 > The following settings will be overwritten after Sentry is restarted, and  you need to resend the request to make a setting
 
-1. **Set camera resolution**
+**1. Set camera resolution**
+
 Parameter value:
 7-->480x320
 8-->640x480
@@ -70,6 +71,7 @@ url request:
 val=11 indicates that the resolution of the camera is set to 1280x720
 
 **2. Set whether the image is flipped**
+
 Parameter value:
 1-->enable     flip vertically
 0-->disable    not flip vertically
@@ -78,7 +80,9 @@ Parameter value:
 
 val=1 indicates that the image will flip vertically
 
+
 **3. Set image quality**
+
 Parameter value:
 10~64
 A lower number means a higher quality
